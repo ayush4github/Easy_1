@@ -1,0 +1,5 @@
+def find_second_smallest(arr):
+    arr.sort()
+    return arr[1]
+arr = list(map(int, input("Enter elements of array separated by space: ").split()))
+print(find_second_smallest(arr))
